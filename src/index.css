@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, rgba(117,172,172,1) 35%, rgba(176,218,140,1) 81%);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.banner{
+  margin-top: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: #191f3a;
+  text-align: center;
+}
+.img-banner{
+  width: 80%;
+  height: 35vh;
+  border-radius: 5px;
+  padding-bottom: 25px;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.form-control{
+  width: 43%;
+  margin-right: 10px;
+  margin-left: 3%;
+}
+.btn{
+  background: #1eadba;
+  color: yellow;
+  text-shadow: 0 0 2px #1eadba;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.btn:hover{
+  background: #afda8c;
+  color: #1eadba;
+}
+.card-ordenar{
+  width: 40%;
+  background: #191f3a;
+  text-shadow: 0 0 2px #1eadba;
+  color: #ccc;
+  margin-left: 29%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  height: 22,5rem;
+  font-weight: 500;
+  border: 1px solid green;
+}
+.card-ordenar:hover{
+  box-shadow: 15px 10px 20px 10px rgba(5, 9, 57, 0.273);
+  transition: all 0,7s linear;
+}
+.card{
+  background: #191f3a;
+  text-shadow: 0 0 2px #1eadba;
+  color: #ccc;
+  text-align: center;
+  width: 16rem;
+  height: 22,5rem;
+  font-weight: 500;
+  border: 1px solid green;
+}
+.card:hover{
+  box-shadow: 15px 10px 20px 10px rgba(5, 9, 57, 0.273);
+  transition: all 0,7s linear;
+}
+.overflow{
+  overflow: hidden;
+}
+.img-fluid{
+  /* width: 15,5rem;
+  height: 13rem; */
+  transition: all 0.2s ease-in-out;
+  
+}
+.img-fluid:hover{
+  transform: scale(1.8);
+}
+.page{
+  padding: 5px;
+}
+.parrafo{
+  font-weight: bold;
+}
+.footer{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  background: #191f3a;
+  color: #afda8c;
+  text-shadow: 0 0 2px #1eadba ;
+  margin-bottom: 5px;
+  display: block;
+ font-weight: 400;
+}
+.img-footer{
+  width: 30%;
+  height: 17vh;
+  border-radius: 5px
+  
+}
+.footer h4{
+  font-size: 17px;
+}
